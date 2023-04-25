@@ -121,4 +121,16 @@ body {
     clear: both;
 }
 
+.apple{
+    position:relative;
+    left: -10vh;
+    top: 8vw;
+}
+
+.appstore{
+    position:relative;
+    left:-10vh;
+    top: 8vw;
+}
+
 /* End Landing Page */
