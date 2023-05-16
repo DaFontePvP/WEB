@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/MAIN.css">
+    <link rel="stylesheet" href="~/css/BUTON.css">
+    <link rel="stylesheet" href="~/css/RECORDS.css">
+    <link rel="stylesheet" href="~/css/MODAL.css">
+    <link rel="stylesheet" href="~/css/NAV.css">
+    <script src="main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="https://juxtopposed.github.io/realtimecolors/images/favicon.png" alt="logoface" class="logoface">
+            <a href="https://realtimecolors.com/" target="_blank"><h2 class="sitename">Jefferson Caminhões</h2></a>
+        </div>
+
+        <div class="menu">
+            <a href="https://realtimecolors.com/get-suggestions" class="menu-item">Para Caminhoneiros <span style="background-color: var(--primary); padding: 0.5em; border-radius: 5px; font-size: 12px; color: var(--secondary);"> Novo</span></a>
+            <a href="#" class="menu-item">Sobre</a>
+            <a href="#" class="menu-item">Contato</a>
+            <a href="#sub" class="primary-button">Entrar</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1 class="header-title">Fretes</h1>
+    </header>
+    <main>
+
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Origem</th>
+                    <th>Carga</th>
+                    <th>Carroceria</th>
+                    <th>Destino</th>
+                    <th>Veiculo</th>
+                    <th>Distância</th>
+                    <th>Rastreamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Santo Antônio das Missões/RS</td>
+                    <td>Milho</td>
+                    <td>Caçamba/graneleiro</td>
+                    <td>Estrela, RS</td>
+
+                    <td>Truck +5</td>
+                    <td>415 km</td>
+                    <td>SIM</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ribeirão Cascalheira/MT</td>
+                    <td>Soja</td>
+                    <td>Caçamba/graneleiro</td>
+                    <td>Guarujá, SP</td>
+
+                    <td>Carreta +3</td>
+                    <td>1.791 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Goiânia, GO</td>
+                    <td>Ração</td>
+                    <td>Graneleiro</td>
+                    <td>Conceição do Rio Verde, MG</td>
+                    <td>Carreta</td>
+                    <td>1176 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>São Bernardo do Campo, SP</td>
+                    <td>Barras</td>
+                    <td>Grade baixa</td>
+                    <td>Guarulhos/SP</td>
+                    <td>Toco +1</td>
+                    <td>34 km</td>
+                    <td>SIM</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Catanduva, SP</td>
+                    <td>açúcar</td>
+                    <td>Sider/Grade baixa</td>
+                    <td>São Paulo, SP</td>
+                    <td>Truck +1</td>
+                    <td>386 km</td>
+                    <td>SIM</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Guarulhos, SP</td>
+                    <td>Diversos</td>
+                    <td>Baú/Sider</td>
+                    <td>Massaranduba, SC</td>
+                    <td>Truck +1</td>
+                    <td>586 km</td>
+                    <td>SIM</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Viana, ES</td>
+                    <td>Papel</td>
+                    <td>Carreta/Carreta LS/Vanderléia</td>
+                    <td>Montes Claros, MG</td>
+                    <td>Carreta +2</td>
+                    <td>913 km</td>
+                    <td>SIM</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>São Luís, MA</td>
+                    <td>Paletes</td>
+                    <td>Sider/Grade baixa/Graneleiro</td>
+                    <td>Laranjeiras, SE</td>
+                    <td>Carreta</td>
+                    <td>1.549 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Goianésia, GO</td>
+                    <td>Sacos</td>
+                    <td>Graneleiro/Grade baixa</td>
+                    <td>Imperatriz, MA</td>
+                    <td>Rodotrem</td>
+                    <td>1223 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Navegantes, SC</td>
+                    <td>Caixas</td>
+                    <td>Baú</td>
+                    <td>São Paulo, SP</td>
+                    <td>Truck</td>
+                    <td>598 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Humaitá, AM</td>
+                    <td>Granel</td>
+                    <td>Caçamba/Graneleiro</td>
+                    <td>Porto Velho, RO</td>
+                    <td>Truck +3</td>
+                    <td>206 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pinheiros, ES</td>
+                    <td>Sacos</td>
+                    <td>Baú</td>
+                    <td>Itabela, BA</td>
+                    <td>Bitruck +1</td>
+                    <td>263 km</td>
+                    <td>NÃO</td>
+                    <td>
+                        <button type="button" class="button green">mais info...</button>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome do Cliente">
+                    <input type="email" class="modal-field" placeholder="e-mail do Cliente">
+                    <input type="text" class="modal-field" placeholder="Celular do Cliente">
+                    <input type="text" class="modal-field" placeholder="Cidade do Cliente">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
